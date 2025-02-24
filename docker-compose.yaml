@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    container_name: ubQuiz-Frontend
+    image: ${IMAGE_NAME}
+    build: .
+    ports:
+      - 3008:3000
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 5
+        window: 120s

@@ -1,0 +1,25 @@
+{
+  "short_name": "QwizTwiz",
+  "name": "QwizTwiz - Play Quiz Win Coins",
+  "icons": [
+    {
+      "src": "qtfavicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16 20x20",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "qtfavicon.png",
+      "type": "image/png",
+      "sizes": "20x20"
+    },
+    {
+      "src": "qtfavicon.png",
+      "type": "image/png",
+      "sizes": "512x512 20x20"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
