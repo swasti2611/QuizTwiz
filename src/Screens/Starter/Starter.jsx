@@ -1039,7 +1039,7 @@ const Starter = (props) => {
 
 
   const checkAds = () => {
-    fetch("http://localhost:8000/check-ads-btn")
+    fetch("https://quiz-backend-6yad.onrender.com/check-ads-btn")
         .then(response => response.text())
         .then(data => console.log(data))
         .catch(error => console.error("Error:", error));

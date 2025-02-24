@@ -55,7 +55,7 @@ function AskPlay(props) {
 
 
   const checkPlayQuizAds = () => {
-    fetch("http://localhost:8000/check-ads-PLAY-BTN")
+    fetch("https://quiz-backend-6yad.onrender.com/check-ads-PLAY-BTN")
         .then(response => response.text())
         .then(data => console.log(data))
         .catch(error => console.error("Error:", error));

@@ -154,7 +154,7 @@ const App = () => {
       console.log('checkAds')
         try {
           console.log('try block')
-            const response = await axios.get('http://localhost:8000/check-ads');
+            const response = await axios.get('https://quiz-backend-6yad.onrender.com');
             console.log('response',response);
             if(!response){
               console.log('response not found')
